@@ -1,0 +1,210 @@
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+}
+
+.contenedorP{
+    background: url(./img/headphones.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 960px;
+    color: black;
+}
+
+.contenedorP img{
+    padding-left: 215px;
+    margin-right: 0%;
+}
+
+
+
+.contenedorP .navP{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    align-items: center;
+    flex: 1;
+}
+
+.contenedorP img{
+    width: 50px;
+    height: 50px;
+}
+
+.info h1{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.info h2{
+    font-size: 70px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.info a{
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.btn{
+    background: white;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+.contenedorP .info{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.texto p{
+    width: 80%;
+    text-indent: 40px;
+    text-align: justify;
+    padding-left: 10%;
+    
+}
+
+.texto h2{
+    padding-left: 10px;
+    padding-left: 10%;
+}
+
+.slogan a{
+    width: 100%;
+    text-decoration: none;
+    background-color: #FFB763;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    border-radius: 0;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+}
+
+
+.boxes img{
+    width: 372px;
+    height: 250px;
+}
+
+#ind{
+    padding-left: 10%;
+}
+
+.boxes p{
+    background-color: #FFB763;
+    padding: 40px;
+    margin-bottom: 0%;
+    color: white;
+    width: 69%;
+}
+
+.title{
+    color: black;
+}
+
+.area1
+{
+    color: white;
+    background-color: #FFB763;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-left: 38%;
+    
+}
+.area2
+{
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-left: 275px;
+    
+}
+
+.areas 
+{
+    margin-top: 10px;
+    padding-top: 0%;
+    display: flex;
+    padding-left: 18%;
+}
+.areas div
+{
+    width: 240px;
+    height: 240px;
+    color: black;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+.imagenes img
+{
+    width: 150px;
+    height: 80px;
+    padding: 5px;
+
+
+}
+.imagenes
+{
+    display: flex;
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+.fuego img
+{
+    width: 40px;
+    height: 45px;
+    padding: 5px;
+    
+}
+.fuego
+{
+    display: flex;
+}
+
+.fuego h2{
+    text-align: center;
+    padding-left: 10%;
+}
+
+#navBar
+{
+    width: 100%;
+    padding-left: 25%;
+    padding-bottom: 30px;
+}
+
+.mapa img
+{
+    width: 100%;
+    height: 100%;
+}
